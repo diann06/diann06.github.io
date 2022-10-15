@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios en Html</h1>
+&nbsp;</header>
+<nav>
+  <ul id="menu_externo">
+	<li><a href="../index.html">Inicio</a></li>
+    <li><a href="Formatos de texto.html">Formatos de Texto</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+    <li><a href="enlaces.html">Enlaces </a></li>
+    <li><a href="tablas.html">Tablas </a></li>
+	<li><a href="imagenes.html">Imagenes </a></li>
+	<li><a href="audio.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus modi, aut optio eius est quae magni voluptate dolor a numquam? Aspernatur sequi repudiandae harum eum reiciendis ex, vel autem rem omnis hic nostrum consequuntur quos sed, architecto molestias. Adipisci at quis corporis cupiditate ullam ab, ut neque numquam, facere aut facilis illo optio sit ipsum est ipsam id perspiciatis dolor mollitia labore dicta velit consequuntur! Blanditiis?</p>
+    <form id="form1" name="form1" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br><br>
+      <label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+		<br><br>
+      <input name="boton1" type="submit" id="boton1" formaction="procesamiento.html" value="Enviar">
+	  
+    </form>
+    &nbsp;</section>
+  <section>
+    <h2>Formulario de select, checkbox y radiobutton</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus modi, aut optio eius est quae magni voluptate dolor a numquam? Aspernatur sequi repudiandae harum eum reiciendis ex, vel autem rem omnis hic nostrum consequuntur quos sed, architecto molestias. Adipisci at quis corporis cupiditate ullam ab, ut neque numquam, facere aut facilis illo optio sit ipsum est ipsam id perspiciatis dolor mollitia labore dicta velit consequuntur! Blanditiis?</p>
+    <form id="form2" name="form2" method="post">
+      <label for="pais">Selecciona tu pais:</label>
+      <select name="pais" id="pais">
+        <option value="mx">Mexico</option>
+        <option value="jp">Japon</option>
+        <option value="es">España</option>
+        <option value="au">Australia</option>
+        <option value="Ar">Argentina</option>
+      </select>
+		<br><br>
+      <label>Genero</label>
+      <p>
+        <label>
+          <input type="radio" name="RadioGroup1" value="Mujer" id="RadioGroup1_0">
+          Mujer</label>
+        <br>
+        <label>
+          <input type="radio" name="RadioGroup1" value="Hombre" id="RadioGroup1_1">
+          Hombre</label>
+        <br><br>
+      </p>
+      <label>¿Cuál será tu residencia en tu visita?</label>
+      <p>
+        <label>
+          <input type="checkbox" name="residenciatemporal" value="checkbox" id="residenciatemporal_0">
+          Hostal</label>
+        <br>
+        <label>
+          <input type="checkbox" name="residenciatemporal" value="checkbox" id="residenciatemporal_1">
+          Hotel</label>
+        <br>
+        <label>
+          <input type="checkbox" name="residenciatemporal" value="checkbox" id="residenciatemporal_2">
+          Domicilio con renta</label>
+        <br>
+        <label>
+          <input type="checkbox" name="residenciatemporal" value="checkbox" id="residenciatemporal_3">
+          Domicilio de familia/amigo</label>
+        <br>
+      </p>
+<br><br>
+      <input name="submit" type="submit" id="boton2" formaction="procesamiento.html" value="Enviar">
+      &nbsp; 		
+    </form>
+    &nbsp;</section>
+  <section>
+    <h2>Formulario de contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus modi, aut optio eius est quae magni voluptate dolor a numquam? Aspernatur sequi repudiandae harum eum reiciendis ex, vel autem rem omnis hic nostrum consequuntur quos sed, architecto molestias. Adipisci at quis corporis cupiditate ullam ab, ut neque numquam, facere aut facilis illo optio sit ipsum est ipsam id perspiciatis dolor mollitia labore dicta velit consequuntur! Blanditiis?</p>
+    <form action="../procesamiento.html" id="form3" name="form3" method="post">
+      <label>Nombre:</label>
+      <input name="Nombre" type="text" required="required" id="Nombre">
+      
+      <label for="email">Email:</label>
+      <input name="email" type="email" required="required" id="email">
+      <label for="email">Comentario:</label>
+      <textarea name="comentario" rows="5" maxlength="150" id="comentario" placeholder="Escribe aqui..."></textarea>
+      <input name="boton3" type="submit" id="boton3" formaction="procesamiento.html" value="Enviar">
+            &nbsp;
+    </form>
+            &nbsp;</section>
+  <section>
+    <h2>Formulario confirmacion datos de registro</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus modi, aut optio eius est quae magni voluptate dolor a numquam? Aspernatur sequi repudiandae harum eum reiciendis ex, vel autem rem omnis hic nostrum consequuntur quos sed, architecto molestias. Adipisci at quis corporis cupiditate ullam ab, ut neque numquam, facere aut facilis illo optio sit ipsum est ipsam id perspiciatis dolor mollitia labore dicta velit consequuntur! Blanditiis?</p>
+    <form id="form4" name="form4" method="post">
+      <label for="date">Fecha de registro:</label>
+      <input name="date" type="date" required="required" id="date" min="2022-01-01">
+		<br><br>
+<label for="textfield">Nombre:</label>
+      <input name="textfield" type="text" required="required" id="textfield">
+      
+      <label for="textfield2">Apellido:</label>
+      <input name="textfield2" type="text" required="required" id="textfield2">
+	  <br><br>
+      <label for="email2">Email utilizado:</label>
+      <input name="email2" type="email" required="required" id="email2">
+	  <br><br>
+	   <label>¿Dónde residiste en tu visita?</label>
+      <p>
+        <label>
+          <input type="checkbox" name="residiste" value="checkbox" id="residiste">
+          Hostal</label>
+        <br>
+        <label>
+          <input type="checkbox" name="residiste" value="checkbox" id="residiste_1">
+          Hotel</label>
+        <br>
+        <label>
+          <input type="checkbox" name="residiste" value="checkbox" id="residiste_2">
+          Domicilio con renta</label>
+        <br>
+        <label>
+          <input type="checkbox" name="residiste" value="checkbox" id="residiste_3">
+          Domicilio de familia/amigo</label>
+	</p><br><br>
+      <label for="Experiencia ">Calificacion de experiencia:</label>
+      <input name="Experiencia " type="range" id="Experiencia " max="6" min="1" title="Experiencia" value="Calificacion">
+      <label for="number">Noches/Dias de estancia:</label>
+      <input name="number" type="number" required="required" id="number" min="1" value="Estancia">
+	  <br><br>
+      <input name="submit" type="submit" id="submit" formaction="procesamiento.html" value="Enviar">
+                  &nbsp;
+    </form>
+&nbsp;</section>
+	
+  &nbsp;</main>
+<footer>
+  <h5>Elaborado por Diana Wendy Armenta Garcia</h5>
+&nbsp;</footer>
+</body>
+</html>

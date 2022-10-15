@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en Html</h1>
+  &nbsp;</header>
+<nav> 
+  <ul id="menu_externo">
+	<li><a href="../index.html">Inicio</a></li>
+    <li><a href="Formatos de texto.html">Formatos de Texto</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+    <li><a href="enlaces.html">Enlaces </a></li>
+    <li><a href="tablas.html">Tablas </a></li>
+	<li><a href="imagenes.html">Imagenes </a></li>
+	<li><a href="audio.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla desde Código</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sunt aspernatur quae incidunt, dolore quia voluptate quasi voluptatibus! Consequatur cumque optio doloribus in temporibus perferendis rerum, earum quia molestias hic molestiae veritatis nesciunt quod nam, reprehenderit maxime modi similique repudiandae. Modi est unde dolorem laudantium accusamus optio cum dolor, soluta?</p>
+	<table border="1" id="tabla_1">
+		<thead>
+		<tr>
+			<th>Nombre</th>
+			<th>País</th>
+			<th>Estación</th>
+			<th>Duración</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Manzano</td>
+				<td>México</td>
+				<td>Primavera</td>
+				<td>300</td>
+			</tr>
+			<tr>
+				<td>Bambú</td>
+				<td>China</td>
+				<td>Verano</td>
+				<td>1200</td>
+			</tr>
+			<tr>
+				<td>Nogal</td>
+				<td>México</td>
+				<td>Invierno</td>
+				<td>800</td>
+			</tr>
+			<tr>
+				<td>Frijol</td>
+				<td>México</td>
+				<td>Otoño</td>
+				<td>100</td>
+			</tr>
+			<tr>
+				<td>Sakura</td>
+				<td>Japón</td>
+				<td>Primavera</td>
+				<td>2000</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Total horas:</td>
+				<td>4400</td>
+			</tr>
+		</tfoot>
+	</table>
+</section>
+  <section>
+    <h2>Tabla con estilo css y uso de rowspan</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eligendi explicabo quam! Ratione impedit alias quibusdam, provident officia culpa cupiditate ex minus eum maiores ipsam explicabo quod dolore nobis saepe est laboriosam aliquam assumenda reiciendis velit quasi sit aut! Ab animi laudantium omnis sint maiores possimus officiis sapiente similique facere incidunt! Voluptas, possimus nihil commodi praesentium vero, atque voluptatibus, numquam, consectetur ducimus quod impedit quia!</p>
+    <table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>País</th>
+          <th>Estación</th>
+          <th>Duración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Manzano</td>
+          <td>México</td>
+          <td>Primavera</td>
+          <td>300</td>
+        </tr>
+        <tr>
+          <td>Bambú</td>
+          <td>China</td>
+          <td>Verano</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Nogal</td>
+          <td>México</td>
+          <td>Invierno</td>
+          <td>800</td>
+        </tr>
+        <tr>
+          <td>Frijol</td>
+          <td>México</td>
+          <td>Otoño</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Sakura</td>
+          <td>Japón</td>
+          <td>Primavera</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+		  <td colspan="3" style="background-color: darkseagreen;font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'">Total</td>
+		  <td>4400</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+<section>
+  <h2>Tabla con cebra en horizontal o filas</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate animi, doloremque nobis vitae consectetur aliquid eveniet accusantium rem! Delectus consequatur cum necessitatibus quibusdam ut non, velit! Labore itaque quae ipsam, consectetur libero facilis quam expedita illo ullam omnis earum deleniti, ipsa aliquid inventore dolorem voluptas nisi sunt perspiciatis laudantium illum. Facere debitis fugit nulla eveniet esse ipsa blanditiis nam eius.</p>
+    <table width="80%" border="1" cellspacing="5" id="tabla_3">
+	  <thead>
+		  <tr>
+          <th scope="col">Nombre </th>
+          <th scope="col">Correo Electrónico </th>
+          <th scope="col"> Teléfono</th>
+          <th scope="col">Edad </th>
+          <th scope="col">Actividad realizada </th>
+        </tr>
+	  </thead>
+      <tbody>
+        <tr>
+          <td> Marco Hernandez </td>
+          <td> 02marco@gmail.com</td>
+          <td>2219457865</td>
+          <td>17</td>
+          <td>Doblaje</td>
+        </tr>
+        <tr>
+          <td> Lucero Palacios</td>
+          <td>lucero@gmail.com</td>
+          <td>2187365543</td>
+          <td>21</td>
+          <td>Teatro</td>
+        </tr>
+        <tr>
+          <td>Julian Uribe</td>
+          <td>juli_u@gmail.com</td>
+          <td>2224679021</td>
+          <td>16</td>
+          <td>Danza</td>
+        </tr>
+        <tr>
+          <td>Martha Flores </td>
+          <td>martha@gmail.com</td>
+          <td>2227564832</td>
+          <td>18</td>
+          <td>Artes</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+    <h2>Tabla con cebras en vertical o columna</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore vero reiciendis alias sint facere, repellat ullam atque illo quibusdam repudiandae, architecto minima inventore tempore. Facilis quidem unde omnis eius natus sed voluptas molestias adipisci ea suscipit beatae repellat corrupti, quam, totam doloribus voluptatibus voluptatum laboriosam placeat cum numquam. Voluptatibus ipsum incidunt, praesentium minima vel. Nam sequi necessitatibus consectetur nostrum minus ipsum maxime voluptatibus quae optio accusantium eos, debitis deleniti distinctio quia nulla maiores ratione. Recusandae aspernatur facilis velit dicta itaque.</p>
+    <table width="80%" border="1" cellspacing="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col">Nombre </th>
+          <th scope="col">Correo Electrónico </th>
+          <th scope="col"> Teléfono</th>
+          <th scope="col">Edad </th>
+          <th scope="col">Actividad realizada </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> Marco Hernandez </td>
+          <td> 02marco@gmail.com</td>
+          <td>2219457865</td>
+          <td>17</td>
+          <td>Doblaje</td>
+        </tr>
+        <tr>
+          <td> Lucero Palacios</td>
+          <td>lucero@gmail.com</td>
+          <td>2187365543</td>
+          <td>21</td>
+          <td>Teatro</td>
+        </tr>
+        <tr>
+          <td>Julian Uribe</td>
+          <td>juli_u@gmail.com</td>
+          <td>2224679021</td>
+          <td>16</td>
+          <td>Danza</td>
+        </tr>
+        <tr>
+          <td>Martha Flores </td>
+          <td>martha@gmail.com</td>
+          <td>2227564832</td>
+          <td>18</td>
+          <td>Artes</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla Flotante (hover)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis asperiores consectetur recusandae, officiis minima odit neque nesciunt cumque vero non ab id quaerat sapiente, sunt autem reprehenderit, beatae molestiae inventore aspernatur possimus. Ad accusantium alias harum voluptatem beatae obcaecati unde dolore ea. Non eligendi assumenda ab obcaecati reiciendis quidem dolores eaque et, modi incidunt praesentium quas vero, laborum doloremque vel velit eos rerum deserunt perferendis minima debitis at ullam. Laudantium.</p>
+    <table width="80%" border="1" cellspacing="5" id="tabla_5">
+      <thead>
+        <tr>
+          <th scope="col">Nombre </th>
+          <th scope="col">Correo Electrónico </th>
+          <th scope="col"> Teléfono</th>
+          <th scope="col">Edad </th>
+          <th scope="col">Actividad realizada </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+         <td> Marco Hernandez </td>
+          <td> 02marco@gmail.com</td>
+          <td>2219457865</td>
+          <td>17</td>
+          <td>Doblaje</td>
+        </tr>
+        <tr>
+          <td> Lucero Palacios</td>
+          <td>lucero@gmail.com</td>
+          <td>2187365543</td>
+          <td>21</td>
+          <td>Teatro</td>
+        </tr>
+        <tr>
+          <td>Julian Uribe</td>
+          <td>juli_u@gmail.com</td>
+          <td>2224679021</td>
+          <td>16</td>
+          <td>Danza</td>
+        </tr>
+        <tr>
+          <td>Martha Flores </td>
+          <td>martha@gmail.com</td>
+          <td>2227564832</td>
+          <td>18</td>
+          <td>Artes</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla receptiva</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis repudiandae, placeat voluptatibus dignissimos doloremque explicabo, cumque omnis aliquid voluptates vel neque impedit ab ipsum ullam deleniti delectus ad accusamus, praesentium. Iste dolor eum, eius quam impedit rem voluptate consequuntur officiis, assumenda error possimus ducimus illo aperiam, autem soluta laudantium cum quisquam quos quo quas, quaerat.</p>
+    <div id="tabla_receptiva">
+      <table border="1" cellspacing="5" id="tabla_6">
+        <tbody>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Puntos</th>
+          </tr>
+          <tr>
+            <td>Primavera</td>
+            <td>2 </td>
+            <td>6 </td>
+            <td>19</td>
+            <td>30</td>
+            <td>3</td>
+            <td>7</td>
+            <td>11</td>
+            <td>22</td>
+            <td>4</td>
+            <td>6</td>
+            <td>14</td>
+            <td>20</td>
+            <td>33</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>Verano </td>
+            <td>7</td>
+            <td>12</td>
+            <td>2</td>
+            <td>8</td>
+            <td>2</td>
+            <td>16</td>
+            <td>19</td>
+            <td>45</td>
+            <td>0</td>
+            <td>12</td>
+            <td>2</td>
+            <td>15</td>
+            <td>6</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Otoño</td>
+            <td>12</td>
+            <td>4</td>
+            <td>9</td>
+            <td>3</td>
+            <td>10</td>
+            <td>25</td>
+            <td>4</td>
+            <td>5</td>
+            <td>36</td>
+            <td>43</td>
+            <td>8</td>
+            <td>25</td>
+            <td>4</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Invierno </td>
+            <td>5</td>
+            <td>20</td>
+            <td>15</td>
+            <td>0</td>
+            <td>9</td>
+            <td>5</td>
+            <td>7</td>
+            <td>20</td>
+            <td>46</td>
+            <td>5</td>
+            <td>16</td>
+            <td>0</td>
+            <td>17</td>
+            <td>33</td>
+          </tr>
+        </tbody>
+      </table>
+      &nbsp;</div>
+</section>
+</main>
+<footer>
+  <h5>Elaborado por Diana Wendy Armenta Garcia</h5>
+  &nbsp;</footer>
+</body>
+</html>

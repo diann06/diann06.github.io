@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas</title>
+<style type="text/css">
+@media screen{
+body header {
+	width: 1200px;
+	height: 400px;
+	background-color: #096D62;
+	color: #BDC9EC;
+	padding-top: 150px;
+	font-size: 14px;
+}
+body header h1 {
+	width: 800px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	bottom: 0px;
+	background-position: 0% 0%;
+	font-size: 72px;
+	color: #F1F8E2;
+	padding-right: 50px;
+	padding-left: 180px;
+}
+}
+body header, body nav, body main, body footer {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0px;
+	right: 0px;
+	top: 0px;
+	left: 0px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+body nav {
+	background-color: #B0C879;
+	height: 100px;
+	color: #F5FAEB;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+body main {
+	background-color: #B7EBE5;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+body footer {
+	height: 100px;
+	background-color: #096D62;
+	font-size: 18px;
+	color: #F1F8E2;
+	padding-top: 40px;
+	margin-left: auto;
+}
+* {
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body main section {
+	width: 800px;
+	height: auto;
+	background-color: #F1F8E2;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+section ul , section ol{
+	padding-right: 30px;
+	padding-top: 10px;
+}
+main section h2 {
+	color: #096D62;
+}
+section ul li {
+	padding-left: 0px;
+	padding-right: 0px;
+	list-style-type: square;
+}
+#lista_1 li {
+	list-style-type: katakana;
+}
+.lista_2 li {
+	list-style-image: url(../imagenes/helecho-real.png);
+}
+body footer h6 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 480px;
+	height: 30px;
+	padding-top: 0px;
+	padding-right: 0px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+}
+#menu {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	list-style-type: none;
+	display: inline-block;
+	list-style-position: outside;
+	margin-left: 120px;
+	margin-right: auto;
+}
+#menu li {
+	list-style-type: none;
+	width: auto;
+	display: inline-block;
+	text-align: center;
+}
+	
+#menu li a{
+	list-style-type: none;
+	width: auto;
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 0px;
+	margin-right: 2px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	height: 40px;
+	background-color: #096D4C;
+	border-radius: 30px;
+	color: #F5FAEB;
+	border: 3px outset #F5FAEB;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+	
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Listas en html</h1>
+</header>
+<nav>
+	<ul id="menu">
+	<li><a href="../index.html">Inicio</a></li>
+	<li><a href="Formatos de texto.html">Formatos Texto</a></li>
+	<li><a href="Listas.html">Listas</a></li>
+    <li><a href="enlaces.html">Enlaces </a></li>
+    <li><a href="tablas.html">Tablas </a></li>
+	<li><a href="imagenes.html">Imagenes</a></li>
+	<li><a href="audio.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="formularios.html">Formularios</a></li>
+	</ul>
+</nav>
+<main>
+  <section>
+    <h2>Lista Desordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsam, quisquam eveniet minima deleniti distinctio fuga eaque debitis, obcaecati nulla pariatur atque placeat quo repellendus labore maiores doloremque nostrum harum, deserunt nobis qui perspiciatis. Incidunt omnis voluptate, quo accusantium esse fugit. Laboriosam illo exercitationem, dolore commodi consequatur hic perferendis! Incidunt.</p>
+	<ul class="lista_2">
+		<li>Durazno</li>
+		<li>Naranjo</li>
+		<li>Nogal</li>
+		<li>Cerezo</li>
+		<li>Cocotero</li>
+	</ul>
+  </section>
+<section>
+    <h2>Lista Ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsam, quisquam eveniet minima deleniti distinctio fuga eaque debitis, obcaecati nulla pariatur atque placeat quo repellendus labore maiores doloremque nostrum harum, deserunt nobis qui perspiciatis. Incidunt omnis voluptate, quo accusantium esse fugit. Laboriosam illo exercitationem, dolore commodi consequatur hic perferendis! Incidunt.</p>
+	  <ol>
+		<li>Asia</li>
+		<li>Europa</li>
+		<li>Oceania</li>
+	 </ol>
+  </section>
+
+  <section>
+    <h2>Lista Mixta</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsam, quisquam eveniet minima deleniti distinctio fuga eaque debitis, obcaecati nulla pariatur atque placeat quo repellendus labore maiores doloremque nostrum harum, deserunt nobis qui perspiciatis. Incidunt omnis voluptate, quo accusantium esse fugit. Laboriosam illo exercitationem, dolore commodi consequatur hic perferendis! Incidunt.</p>
+	 <ol>
+		<li>Invierno</li>
+		 	<ul>
+			 <li>Enero</li>
+			 <li>Febrero</li>
+			 <li>Diciembre</li>
+		    </ul>
+		<li>Verano</li>
+		<li>Otoño</li>
+		<li>Primavera</li>
+	 </ol>
+  </section>
+  <section>
+    <h2>Lista Modificada Con Una Regla de Identificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsam, quisquam eveniet minima deleniti distinctio fuga eaque debitis, obcaecati nulla pariatur atque placeat quo repellendus labore maiores doloremque nostrum harum, deserunt nobis qui perspiciatis. Incidunt omnis voluptate, quo accusantium esse fugit. Laboriosam illo exercitationem, dolore commodi consequatur hic perferendis! Incidunt.</p>
+    <ul id="lista_1">
+      <li>Madagascar</li>
+      <li>Alemania</li>
+      <li>Dubai</li>
+      <li>Brasil</li>
+      <li>Inglaterra</li>
+      <li>Corea del sur</li>
+      <li>Egipto</li>
+      <li>Australia </li>
+    </ul>
+  </section>
+  <section>
+    <h2>Lista Desordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsam, quisquam eveniet minima deleniti distinctio fuga eaque debitis, obcaecati nulla pariatur atque placeat quo repellendus labore maiores doloremque nostrum harum, deserunt nobis qui perspiciatis. Incidunt omnis voluptate, quo accusantium esse fugit. Laboriosam illo exercitationem, dolore commodi consequatur hic perferendis! Incidunt.</p>
+    <ul class="lista_2">
+      <li>Durazno</li>
+      <li>Naranjo</li>
+      <li>Nogal</li>
+	  <li>Cerezo</li>
+	  <li>Cocotero</li>
+    </ul>
+  </section>
+</main>
+
+
+<footer>
+  <h6>Elaborado por Diana Wendy Armenta Garcia</h6>
+</footer>
+</body>
+</html>
